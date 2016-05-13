@@ -1,5 +1,4 @@
-var requestBody = require('./post-request'),
-    print = require('./print'),
+var print = require('./print'),
     argsBuilder = require('./argsBuilder'),
     request = require('superagent'),
     Promise = require('bluebird'),
